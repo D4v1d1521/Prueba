@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.springframework.quoters;
+package org.springframework.ApiRest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class QuotersIncorporatedApplication {
+public class ApiRestIncorporatedApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(QuotersIncorporatedApplication.class, args);
+		SpringApplication.run(ApiRestIncorporatedApplication.class, args);
 	}
 }
